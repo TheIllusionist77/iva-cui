@@ -69,7 +69,7 @@ The outcome from following these instructions should be:
 
 - A local LLM server running on port `8082` (or `11434` for Ollama)
 - A local ASR server running on port `8083`
-- A local Python middleware server running on port `8080`
+- A local Python middleware server running on port `8000`
 
 #### Running LLM locally on Windows
 
@@ -147,6 +147,7 @@ python whisper_server.py
 cd iva-cui-backend\python_middleware
 python test_conv.py
 ```
+
 ## Authors
 
 [Mykola Maslych](https://github.com/maslychm), [Mohammadreza Katebi](https://github.com/MRkatebi99), [Christopher Lee](https://github.com/hpipyT), [Yahya Hmaiti](https://github.com/YHmaiti), [Amirpouya Ghasemaghaei](https://github.com/PouyaAghaei), [Christian Pumarada](https://github.com/Aurelius1824), [Janneese Palmer](https://github.com/janneese), [Esteban Segarra Martinez](https://overcodedstack.github.io/), [Marco Emporio](https://marcokero.github.io/), [Warren Snipes](https://github.com/LockedThread), [Ryan P. McMahan](https://orcid.org/0000-0001-9357-9696), [Joseph J. LaViola Jr.](https://orcid.org/0000-0003-1186-4130)
